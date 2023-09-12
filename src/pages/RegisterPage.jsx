@@ -44,7 +44,7 @@ const RegisterPage = () => {
 				<div className="success-register">
 					<h2>You created an account</h2>
 					<MyButton>
-						<Link to='/profile'>Go to profile</Link>
+						<Link to='/react-car-rental/profile'>Go to profile</Link>
 						</MyButton>
 				</div>
 			) : (

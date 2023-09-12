@@ -37,7 +37,7 @@ const LogIn = () => {
 			{logIn ? 
 			<div className="success-login">
 				<h2 className='success-title'>You succesfully loged in!</h2>
-				<MyButton><Link to='/profile'>Go to profile</Link></MyButton>
+				<MyButton><Link to='/react-car-rental/profile'>Go to profile</Link></MyButton>
 			</div>
 			:	
 			 <div className="login-form-wrapper">

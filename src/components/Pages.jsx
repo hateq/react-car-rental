@@ -11,11 +11,11 @@ const Pages = () => {
 	return (
 		<>
 			<Routes>
-				<Route path='/' element={<MainPage />} />
-				<Route path='/about' element={<AboutPage />} />
-				<Route path='/contacts' element={<ContactsPage />} />
-				<Route path='/register' element={<RegisterPage />} />
-				<Route path='/profile' element={<UserProfilePage />} />
+				<Route path='/react-car-rental/' element={<MainPage />} />
+				<Route path='/react-car-rental/about' element={<AboutPage />} />
+				<Route path='/react-car-rental/contacts' element={<ContactsPage />} />
+				<Route path='/react-car-rental/register' element={<RegisterPage />} />
+				<Route path='/react-car-rental/profile' element={<UserProfilePage />} />
 				<Route path='*' element={<ErrorPage />} />
 			</Routes>
 		</>

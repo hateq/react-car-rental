@@ -119,7 +119,7 @@ const sortCarList = () => {
 								{isAuth ? 
 								<>
 								<h2 className="modal-text">You succesfully booked a car!✅</h2>
-									<Link to='/profile'>
+									<Link to='/react-car-rental/profile'>
 										<MyButton>To My Profile</MyButton>
 									</Link>
 								</> :

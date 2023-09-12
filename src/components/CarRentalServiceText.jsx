@@ -15,7 +15,7 @@ const CarRentalServiceText = () => {
 			<button form='select-form' className='car-rental-service__button' style={{
 							color: 'white'
 			}}>Book your car</button>
-			<Link to={'/about'}>Find out more</Link>
+			<Link to={'/react-car-rental/about'}>Find out more</Link>
 		</div>
 	</div>
 	 );

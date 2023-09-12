@@ -32,14 +32,14 @@ const Header = ({activePage}) => {
 						<li className="menu-mobile-item menu-item">
 						<Toggler checked={checked} handleChandge={handleChandge}/>
 						</li>
-					<li className="menu-mobile-item menu-item"><Link to="/about" className={activePage == 'about' ? 'active' : ''}>ABOUT</Link></li>
-						<li className="menu-mobile-item menu-item"><Link to="/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
+					<li className="menu-mobile-item menu-item"><Link to="/react-car-rental/about" className={activePage == 'about' ? 'active' : ''}>ABOUT</Link></li>
+						<li className="menu-mobile-item menu-item"><Link to="/react-car-rental/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
 						{
 							isAuth ? 
-							<li className="menu-mobile-item menu-item"><Link to={'/profile'}>Profile</Link></li> :
+							<li className="menu-mobile-item menu-item"><Link to={'/react-car-rental/profile'}>Profile</Link></li> :
 							<>
 							<li className="menu-mobile-item menu-item login" onClick={() => setOpen(true)}><span>Log In</span></li>
-						<li className="menu-mobile-item menu-item register"><Link to={'/register'}>Register</Link></li>
+						<li className="menu-mobile-item menu-item register"><Link to={'/react-car-rental/register'}>Register</Link></li>
 							</>
 						}
 					</ul>
@@ -49,19 +49,19 @@ const Header = ({activePage}) => {
 				<div className="nav-left">
 					<ul className="menu menu-left">
 						<li className="menu-item toggler"><Toggler checked={checked} handleChandge={handleChandge}/></li>
-						<li className="menu-item"><Link to="/about" className={activePage == 'about' ? 'active' : ''}>ABOUT</Link></li>
-						<li className="menu-item"><Link to="/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
+						<li className="menu-item"><Link to="/react-car-rental/about" className={activePage == 'about' ? 'active' : ''}>ABOUT</Link></li>
+						<li className="menu-item"><Link to="/react-car-rental/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
 					</ul>
 				</div>
-				<Link to={'/'} className='logo-link'><img src="images/logo.png" alt="" className="logo" /></Link>
+				<Link to={'/react-car-rental/'} className='logo-link'><img src="images/logo.png" alt="" className="logo" /></Link>
 				<div className="nav-right">
 				<ul className="menu menu-right">
 					{
 						isAuth ? 
-						<li className="menu-item profile"><Link to={'/profile'}>Profile</Link></li> :
+						<li className="menu-item profile"><Link to={'/react-car-rental/profile'}>Profile</Link></li> :
 						<>
 						<li className="menu-item login" onClick={() => setOpen(true)}><span>Log In</span></li>
-						<li className="menu-item register"><Link to={'/register'}>Register</Link></li>
+						<li className="menu-item register"><Link to={'/react-car-rental/register'}>Register</Link></li>
 						</>
 					}	
 					</ul>
