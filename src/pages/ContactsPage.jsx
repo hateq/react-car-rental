@@ -5,7 +5,9 @@ import '../styles/Contacts.scss';
 import { useQuery } from 'react-query';
 import MyButton from '../components/UI/button/MyButton';
 import MyInput from '../components/UI/input/MyInput';
-import MyLoader from '../components/UI/loader/MyLoader'
+import MyLoader from '../components/UI/loader/MyLoader';
+import StalinImg from '../../images/users/stalin.jpg';
+import CarImg from "../../images/car-contacts.png";
 
 const ContactPage = () => {
 	async function fetchCountries() {
@@ -102,10 +104,10 @@ const data = useQuery('countries', fetchCountries);
 				 }
 				<img className='moving-img' style={{
 					transform: isCountrySelected && userCountryData.name.common == 'Russia' ? 'translateX(1500px)' : 'translateX(-1500px)'
-				}} src={'./images/users/stalin.jpg'} alt="" />
+				}} src={StalinImg} alt="" />
 				<img style={{
 					transform: isCountrySelected && userCountryData.name.common !== 'Russia' ? 'translateX(1500px)' : 'translateX(-1500px)'
-				}} className='moving-img' src="./images/car-contacts.png" alt="" />
+				}} className='moving-img' src={CarImg} alt="" />
 			</div>
 		</div>
 		</>
