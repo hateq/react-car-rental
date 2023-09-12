@@ -14,7 +14,7 @@ import CheckStrokeLength from '../components/UI/checkPassword/CheckStrokeLength'
 import { UserCarsContext } from '../providers/UserCarsProvider';
 import CarCard from '../components/CarCard';
 import logOutIcon from '../../images/icons/logout-icon.svg';
-import userPhoto from "./images/users/heizenberg.png";
+import userPhoto from "../../images/users/heizenberg.png";
 
 const UserProfilePage = () => {
 	const {isAuth, setIsAuth} = React.useContext(AuthContext);
