@@ -1,0 +1,67 @@
+.car-rental-service {
+	width: 50%;
+	margin: 100px auto;
+	@media(max-width:900px) {
+		width: 70%;
+	}
+	@media(max-width:700px) {
+		width: 80%;
+	}
+	@media(max-width:450px) {
+		width: 90%;
+	}
+	&__text {
+		font-weight: 400;
+	}
+	&__title {
+		font-size: 24px;
+		margin-bottom: 20px;
+		@media(max-width:1000px) {
+			font-size: 22px;
+		}
+		@media(max-width:550px) {
+			font-size: 18px;
+		}
+		@media(max-width:400px) {
+			font-size: 16px;
+		}
+		@media(max-width:360px) {
+			font-size: 14px;
+		}
+	}
+	&__buttons {
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		align-items: center;
+		a {
+			background: linear-gradient(to right, var(--text-color-active), var(--text-color-active));
+			background-size:0 3px;
+			background-position: 0 100%;
+			background-repeat: no-repeat;
+			transition: .4s;
+			&:hover {
+				background-size:100% 3px;
+			}
+			@media(max-width:400px) {
+				font-size: 16px;
+			}
+		}
+		.car-rental-service__button {
+			margin-right: 50px;
+			cursor: pointer;
+			transition: .5s;
+			border: none;
+			background-color: rgb(0, 102, 255);
+			color: var(--text-color);
+			padding: 15px;
+			@media(max-width:400px) {
+				font-size: 16px;
+				padding: 10px;
+			}
+			&:hover {
+				background-color: rgb(1, 48, 119);
+			}
+		}
+	}
+}

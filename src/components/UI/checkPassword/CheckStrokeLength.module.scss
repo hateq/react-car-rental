@@ -1,0 +1,18 @@
+.CheckStrokeLength {
+	font-size: 14px;
+	opacity: 1;
+	visibility: visible;
+	margin: 5px 0;
+	@media(max-width:720px) {
+		font-size: 12px;
+	}
+}
+.Hidden {
+	opacity: 0;
+	visibility: hidden;
+	font-size: 14px;
+	margin: 5px 0;
+	@media(max-width:720px) {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,39 @@
+.BurgerMenu {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background-color: transparent;
+	left: 10px;
+	top: 40px;
+	z-index: 15;
+	cursor: pointer;
+	display: none;
+	& span {
+		position: absolute;
+		width: 30px;
+		height: 3px;
+		background-color: var(--burger-color);
+		left: 5px;
+		transition: transform .5s, opacity .5s, background-color .5s;
+		&:nth-child(1) {
+			transform: translateY(-10px);
+		}
+		&:nth-child(3) {
+			transform: translateY(10px);
+		}
+	}
+	&.active span:nth-child(1) {
+			transform: translateY(0) rotate(45deg);
+	}
+	&.active span:nth-child(2) {
+		opacity: 0;
+}
+&.active span:nth-child(3) {
+	transform: translateY(0) rotate(-45deg);
+}
+@media(max-width:1050px) {
+	display: block;
+	position: fixed;
+}
+}

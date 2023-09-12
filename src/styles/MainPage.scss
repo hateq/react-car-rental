@@ -1,0 +1,58 @@
+.main-page {
+	text-align: center;
+	.main-page-title {
+		font-size: 30px;
+		margin: 0 10px 50px;
+	}
+}
+.city-select {
+	width: 90%;
+	margin: 0 auto;
+	.drop-off {
+		display: flex;
+		margin-left: 15%;
+		@media(max-width:900px) {
+			margin: 0;
+			justify-content: center;
+		}
+		p {
+			&:nth-child(1) {
+				margin-right: 30px;
+			}
+			font-weight: 700;
+			font-size: 16px;
+			cursor: pointer;
+
+			cursor: pointer;
+			background: linear-gradient(to right, var(--text-color-active), var(--text-color-active));
+			background-size:0 3px;
+			background-position: 0 100%;
+			background-repeat: no-repeat;
+			transition: .4s;
+	}
+	.active {
+		background-size: 100% 3px;
+		}	
+}
+}
+.cars-choose {
+	margin: 100px auto;
+	width: 90%;
+	display: flex;
+	.cars {
+		padding: 20px;
+		width: 80%;
+		&-title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+	}
+}
+.modal-text {
+	color: var(--text-color);
+	font-size: 30px;
+	margin: 50px 0;
+}
+.no-cars {
+	margin-top: 50px;
+}

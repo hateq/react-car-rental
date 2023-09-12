@@ -1,0 +1,9 @@
+.cars-settings {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media(max-width:800px) {
+		flex-direction: column;
+		gap: 10px 0;
+	}
+}

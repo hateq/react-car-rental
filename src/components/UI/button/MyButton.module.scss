@@ -1,0 +1,12 @@
+.MyButton {
+	padding: 15px 40px;
+	background-color: rgb(20, 125, 253);
+	font-size: 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+	&:hover {
+		background-color: rgb(3, 61, 131);
+	}
+}

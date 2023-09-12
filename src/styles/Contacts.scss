@@ -1,0 +1,85 @@
+.contacts {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.contacts-title {
+		margin-bottom: 50px;
+		font-size: 40px;
+	}
+	.country-select {
+		.user-russia:hover {
+			filter: drop-shadow(1px 1px 15px red);
+		}
+	}
+	h3 {
+		filter: var(--icons-color);
+		font-size: 30px;
+		margin: 70px 10px 50px;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 auto;
+	}
+	li {
+		margin: 25px 0;
+		cursor: pointer;
+		transition: .5s;
+		display: inline-flex;
+		@media(max-width:500px) {
+			margin: 25px auto;
+		}
+		img {
+			width: 30px;
+			height: 20px;
+			margin-right: 20px;
+		}
+		&:hover {
+			filter: var(--icons-color-hover);
+		}
+	}
+	.phone-number-title {
+		margin: 100px 0 30px;
+	}
+	.phone-number-text {
+		filter: var(--icons-color);
+	}
+	.mail-title {
+		margin: 100px 0 30px;
+		font-size: 40px;
+	}
+	.mail-text {
+		font-size: 24px;
+		margin-bottom: 70px;
+	}
+}
+.moving-img {
+	transition: 7s;
+	position: sticky;
+	bottom: 900px;
+	width: 200px;
+}
+.social-media-items {
+	font-size: 30px;
+	filter: var(--icons-color);
+	transition: .5s;
+	&:hover {
+		filter: var(--icons-color-hover);
+	}
+}
+.social-media-container {
+	margin-top: 50px;
+	display: flex;
+	gap: 0 50px;
+	@media(max-width:600px) {
+		flex-direction: column;
+		gap: 50px 0;
+	}
+}
+.social-media-title {
+	margin-top: 100px;
+	font-size: 36px;
+}

@@ -1,0 +1,87 @@
+@import './Normalize.scss';
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+	::-webkit-calendar-picker-indicator {
+		color: red;
+		opacity: 1;
+		background-size: contain;
+	}
+	&::selection {
+		background-color: var(--selection-bg-color);
+		color: var(--selection-color);
+	}
+}
+
+a {
+	color: var(--text-color);
+}
+
+html[data-theme="dark"] {
+	--selection-bg-color: rgb(0, 98, 255);
+	--selection-color: black;
+	--color: rgb(38, 39, 39);
+	--text-color: white;
+	--text-color-active: rgb(42, 42, 255);
+	--select-bg-color: black;
+	--input-text-color: white;
+	--input-bg-color: black;
+
+	--user-rent-input-bg-color: rgb(70, 70, 70);
+	--user-rent-input-color: white;
+	--filters-counter-bg-color: rgb(94, 94, 94);
+	--car-card-bg-color: rgb(63, 63, 63);
+	--register-color: rgb(28, 28, 170);
+	--register-color-hover: rgb(25, 25, 143);
+	--toggler-shadow: white;
+	--burger-color: white;
+	--burger-color-text: white;
+	--burger-color-bg: rgb(50, 50, 50);
+	--modal-bg-color: black;
+	--modal-button-close-color: gray;
+	--modal-button-close-color-hover: rgb(184, 184, 184);
+	--success-login-text-color: white;
+
+	--footer-title-color: rgb(161, 161, 161);
+	--footer-text-color:white;
+	--footer-bg-color: rgb(20, 20, 20);
+	--icons-color: drop-shadow(1px 1px 7px rgb(0, 102, 255));
+	--icons-color-hover: drop-shadow(1px 1px 15px rgb(0, 102, 255));
+	--error-link-bg-color:blue;
+}
+
+html[data-theme="light"] {
+	--selection-bg-color: rgb(2, 2, 101);
+	--selection-color: white;
+	--color: white;
+	--text-color: black;
+	--text-color-active: rgb(14, 14, 223);
+	--select-bg-color: white;
+	--user-rent-input-bg-color: rgb(190, 190, 190);
+	--user-rent-input-color: black;
+	--filters-counter-bg-color: rgb(199, 199, 199);
+	--car-card-bg-color: rgb(226, 226, 226);
+
+	--register-color: rgb(7, 7, 168);
+	--register-color-hover: rgb(0, 0, 255);
+	--toggler-shadow: black;
+	--burger-color: black;
+	--burger-color-text: black;
+	--burger-color-bg: rgb(171, 171, 171);
+	--input-text-color: gray;
+	--modal-bg-color: white;
+	--modal-button-close-color:gray;
+	--modal-button-close-color-hover:rgb(65, 65, 65);
+	--success-login-text-color: black;
+	--input-bg-color: white;
+
+
+	--icons-color: drop-shadow(1px 1px 10px rgb(0, 10, 125));
+	--icons-color-hover: drop-shadow(2px 2px 20px rgb(2, 23, 255));
+	--footer-title-color: rgb(106, 106, 106);
+	--footer-text-color:black;
+	--footer-bg-color: rgb(216, 216, 216);
+	--error-link-bg-color:blue;
+}

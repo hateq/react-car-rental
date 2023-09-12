@@ -1,0 +1,124 @@
+@import './CustomSelects.scss';
+.user-error {
+	margin: auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+.user-profile {
+	margin: 20px 30px 50px;
+	border: 1px solid var(--text-color);
+	border-radius: 30px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	@media(min-width:1000px) {
+		width: 70%;
+		margin: 20px auto 50px;
+	}
+	@media(max-width:550px) {
+		margin: 20px 20px 50px;
+	}
+	.user-profile-settings {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		img {
+			width: 30px;
+			margin-right: 15px;
+			margin-top: 10px;
+			cursor: pointer;
+			transition: .5s;
+			&:hover {
+				filter: var(--icons-color);
+			}
+		}
+	}
+	.user-info {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+		padding: 20px;
+		img {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+		}
+		.user-country {
+			margin: 5px 0 15px;
+			span img  {
+				width: 25px;
+				height: 25px;
+				margin: 0 10px -3px 0;
+			}
+		}
+	}
+	.user-bio {
+		padding: 30px;
+		border-top: 1px solid var(--text-color);
+		border-bottom: 1px solid var(--text-color);
+		width: 100%;
+	}
+	.user-settings-form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.user-cars {
+		width: 50%;
+		padding: 20px 0;
+		@media(min-width:1000px) {
+			width: 80%;
+		}
+		@media(max-width:800px) {
+			width: 70%;
+		}
+		@media(max-width:400px) {
+			width: 80%;
+		}
+	}
+	.user-logout {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 2px solid #0091ff;
+		width: 100%;
+		padding: 30px 0;
+		margin-top: 10px;
+		border-radius: 0px;
+		.user-logout-buttons {
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: .8s;
+			&:hover {
+				filter: var(--icons-color);
+			}
+			h2 {
+				color: #0091ff;
+				font-size: 28px;
+				cursor: pointer;
+				user-select: none;
+				@media(max-width:450px) {
+					font-size: 24px;
+				}
+			}	
+			img {
+				width: 40px;
+				margin-left: 20px;
+				@media(max-width:450px) {
+					width: 30px;
+				}
+			}
+		}
+	}
+}

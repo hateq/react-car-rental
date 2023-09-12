@@ -1,0 +1,19 @@
+body {
+	background-color: var(--color);
+	transition:background-color .5s linear;
+	color: var(--text-color);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.App {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
