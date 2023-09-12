@@ -53,7 +53,7 @@ const Header = ({activePage}) => {
 						<li className="menu-item"><Link to="/react-car-rental/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
 					</ul>
 				</div>
-				<Link to={'/react-car-rental/'} className='logo-link'><img src="images/logo.png" alt="" className="logo" /></Link>
+				<Link to={'/react-car-rental/'} className='logo-link'><img src="./images/logo.png" alt="" className="logo" /></Link>
 				<div className="nav-right">
 				<ul className="menu menu-right">
 					{
