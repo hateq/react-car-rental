@@ -14,6 +14,7 @@ import CheckStrokeLength from '../components/UI/checkPassword/CheckStrokeLength'
 import { UserCarsContext } from '../providers/UserCarsProvider';
 import CarCard from '../components/CarCard';
 import logOutIcon from '../../images/icons/logout-icon.svg';
+import userPhoto from "./images/users/heizenberg.png";
 
 const UserProfilePage = () => {
 	const {isAuth, setIsAuth} = React.useContext(AuthContext);
@@ -83,7 +84,7 @@ const data = useQuery('countries', fetchCountries);
 					}} />
 				</div>
 			<div className="user-info">
-			<img src="./images/users/heizenberg.png" alt="" />
+			<img src={userPhoto} alt="" />
 			<h2>{`${userInfo.name} ${userInfo.surname}`}</h2>
 			<p className='user-country'><span><img src={userCountryFlag} alt="" /></span>{userInfo.country}</p>
 			<p className='user-age'>{userInfo.age} years</p>
