@@ -5,6 +5,9 @@ import ClockIcon from '../../images/icons/clock.svg';
 import SecurityIcon from '../../images/icons/security.svg';
 import FixIcon from '../../images/icons/fix.svg';
 import CarIcon from '../../images/icons/car.svg';
+import HeizenbergPhoto from '../../images/users/heizenberg.png';
+import BillyPhoto from '../../images/users/heizenberg.png';
+import JessePhoto from '../../images/users/heizenberg.png';
 import Slider from '../components/Slider';
 
 const AboutPage = () => {
@@ -64,7 +67,7 @@ const AboutPage = () => {
 		<Slider currentWidth={currentWidth} maxChildWidth={750}>
 		<div className="feedback" ref={feedbackRef}>
 					<div className="user">
-						<img src="./images/users/billy-harrington.jpg" alt="" />
+						<img src={BillyPhoto} alt="" />
 						<h2>BILLY HARRINGTON</h2>
 					</div>
 					<p className="feedback-text">
@@ -73,7 +76,7 @@ const AboutPage = () => {
 				</div>
 				<div className="feedback" ref={feedbackRef}>
 					<div className="user">
-						<img src="./images/users/heizenberg.png" alt="" />
+						<img src={HeizenbergPhoto} alt="" />
 						<h2>HEIZENBERG</h2>
 					</div>
 					<p className="feedback-text">
@@ -82,7 +85,7 @@ const AboutPage = () => {
 				</div>
 				<div className="feedback" ref={feedbackRef}>
 					<div className="user">
-						<img src="./images/users/jesse-pinkman.png" alt="" />
+						<img src={JessePhoto} alt="" />
 						<h2>JESSE PINKMAN</h2>
 					</div>
 					<p className="feedback-text">
