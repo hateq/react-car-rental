@@ -1,0 +1,132 @@
+{
+	"cars": [
+		{
+			"model": "BMW X1",
+			"company": "BMW",
+			"vehicleType": "sport",
+			"color": "White",
+			"price": "40",
+			"image": "../../images/car images/bmw1.png"
+		} ,
+		{
+			"model": "BMW X2",
+			"company": "BMW",
+			"vehicleType": "sport",
+			"color": "Black",
+			"price": "50",
+			"image": "../../images/car images/bmw2.png"
+		},
+		{
+			"model": "BMW X4",
+			"company": "BMW",
+			"vehicleType": "sport",
+			"color": "Other",
+			"price": "45",
+			"image": "../../images/car images/bmw3.png"
+		},
+		{
+			"model": "Ferrari",
+			"company": "Ferrari",
+			"vehicleType": "sport",
+			"color": "Other",
+			"price": "200",
+			"image": "../../images/car images/ferrari.png"
+		},
+		{
+			"model": "Honda Civic",
+			"company": "Honda",
+			"vehicleType": "sedan",
+			"color": "White",
+			"price": "20",
+			"image": "../../images/car images/honda civic.png"
+		},
+		{
+			"model": "Honda Accord",
+			"company": "Honda",
+			"vehicleType": "sedan",
+			"color": "Gray",
+			"price": "25",
+			"image": "../../images/car images/honda2.png"
+		},
+		{
+			"model": "Lamborghini Aventador",
+			"company": "Lamborghini",
+			"vehicleType": "sport",
+			"color": "Other",
+			"price": "700",
+			"image": "../../images/car images/lamborghini.png"
+		},
+		{
+			"model": "Maybach",
+			"company": "Maybach",
+			"vehicleType": "sedan",
+			"color": "Black",
+			"price": "600",
+			"image": "../../images/car images/maybach.png"
+		},
+		{
+			"model": "Mercedes E-class",
+			"company": "Mercedes",
+			"vehicleType": "sedan",
+			"color": "Gray",
+			"price": "55",
+			"image": "../../images/car images/mercedes1.png"
+		},
+		{
+			"model": "Mercedes S63 Amg",
+			"company": "Mercedes",
+			"vehicleType": "sport",
+			"color": "White",
+			"price": "60",
+			"image": "../../images/car images/mercedes2.png"
+		},
+		{
+			"model": "Mercedes C-class",
+			"company": "Mercedes",
+			"vehicleType": "sedan",
+			"color": "White",
+			"price": "45",
+			"image": "../../images/car images/merecedes3.png"
+		},
+		{
+			"model": "Mercedes G-class",
+			"company": "Mercedes",
+			"vehicleType": "jeep",
+			"color": "Gray",
+			"price": "70",
+			"image": "../../images/car images/merecedes4.png"
+		},
+		{
+			"model": "Mercedes E-220",
+			"company": "Mercedes",
+			"vehicleType": "sport",
+			"color": "White",
+			"price": "80",
+			"image": "../../images/car images/mercedes5.png"
+		},
+		{
+			"model": "Mustang",
+			"company": "Mustang",
+			"vehicleType": "sport",
+			"color": "Other",
+			"price": "40",
+			"image": "../../images/car images/bmw1.png"
+		},
+		{
+			"model": "Toyota Camry",
+			"company": "Toyota",
+			"vehicleType": "sedan",
+			"color": "White",
+			"price": "50",
+			"image": "../../images/car images/toyota camry.png"
+		},
+		{
+			"model": "Toyota Land Cruiser",
+			"company": "Toyota",
+			"vehicleType": "jeep",
+			"color": "Black",
+			"price": "80",
+			"image": "../../images/car images/toyota land cruiser.png"
+		}
+	]
+}
