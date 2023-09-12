@@ -6,8 +6,8 @@ import SecurityIcon from '../../images/icons/security.svg';
 import FixIcon from '../../images/icons/fix.svg';
 import CarIcon from '../../images/icons/car.svg';
 import HeizenbergPhoto from '../../images/users/heizenberg.png';
-import BillyPhoto from '../../images/users/heizenberg.png';
-import JessePhoto from '../../images/users/heizenberg.png';
+import BillyPhoto from '../../images/users/billy-harrington.jpg';
+import JessePhoto from '../../images/users/jesse-pinkman.png';
 import Slider from '../components/Slider';
 
 const AboutPage = () => {
