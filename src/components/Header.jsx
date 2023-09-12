@@ -7,6 +7,7 @@ import Toggler from './UI/toggler/Toggler';
 import BurgerMenu from './UI/burgerMenu/BurgerMenu';
 import LogIn from './LogIn';
 import { AuthContext } from '../providers/AuthProvider';
+import Logo from '/images/logo.png';
 
 const Header = ({activePage}) => {
 	const {isAuth, setIsAuth} = React.useContext(AuthContext);
@@ -53,7 +54,7 @@ const Header = ({activePage}) => {
 						<li className="menu-item"><Link to="/react-car-rental/contacts" className={activePage == 'contacts' ? 'active' : ''}>CONTACTS</Link></li>
 					</ul>
 				</div>
-				<Link to={'/react-car-rental/'} className='logo-link'><img src="./images/logo.png" alt="" className="logo" /></Link>
+				<Link to={'/react-car-rental/'} className='logo-link'><img src={Logo} alt="" className="logo" /></Link>
 				<div className="nav-right">
 				<ul className="menu menu-right">
 					{
