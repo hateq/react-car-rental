@@ -77,7 +77,7 @@ const data = useQuery('countries', fetchCountries);
 										LINKEDIN
 											</h2>
 											</a>
-											<a target='_blank' href="https://t.me/fhdhddjb">
+											<a target='_blank' href="https://t.me/hateql">
 												<h2 className="social-media-items">
 												TELEGRAM
 													</h2>
